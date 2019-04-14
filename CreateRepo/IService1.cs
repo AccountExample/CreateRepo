@@ -19,6 +19,9 @@ namespace CreateRepo
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        string GetEmployeeID(int id);
+
         // TODO: Add your service operations here
     }
 
